@@ -23,6 +23,10 @@ public class Student {
     private LocalDate dob;
     private String email;
 
+    public Student(){
+
+    }
+
     public Student(Integer id, String name, Integer age, LocalDate dob, String email) {
         this.id = id;
         this.name = name;
